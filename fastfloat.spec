@@ -1,5 +1,4 @@
 %define major 0
-%define libname %mklibname fastfloat
 %define devname %mklibname fastfloat -d
 
 Name: fastfloat
@@ -18,18 +17,9 @@ BuildArch: noarch
 Fast and exact implementation of the C++ from_chars functions
 for float and double types: 4x to 10x faster than strtod
 
-%package -n %{libname}
-Summary: Fast and exact version of the C++ from_chars function for float and double types
-Group: System/Libraries
-
-%description -n %{libname}
-Fast and exact implementation of the C++ from_chars functions
-for float and double types: 4x to 10x faster than strtod
-
 %package -n %{devname}
 Summary: Development files for %{name}
 Group: Development/C
-Requires: %{libname} = %{EVRD}
 
 %description -n %{devname}
 Development files (Headers etc.) for %{name}.
