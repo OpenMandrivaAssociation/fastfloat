@@ -2,7 +2,7 @@
 %define devname %mklibname fastfloat -d
 
 Name: fastfloat
-Version: 5.2.0
+Version: 6.0.0
 Release: 1
 Source0: https://github.com/fastfloat/fast_float/archive/refs/tags/v%{version}.tar.gz
 Summary: Fast and exact version of the C++ from_chars function for float and double types
