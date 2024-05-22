@@ -1,3 +1,4 @@
+%define _empty_manifest_terminate_build 0
 %define major 0
 %define devname %mklibname fastfloat -d
 
