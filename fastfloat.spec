@@ -5,7 +5,7 @@
 Name: fastfloat
 Version: 8.0.2
 Release: 1
-Source0: https://github.com/fastfloat/fast_float/archive/v%{version}/%{name}-%{version}.tar.gz
+Source0: https://github.com/fastfloat/fast_float/archive/v%{version}/fast_float-%{version}.tar.gz
 Summary: Fast and exact version of the C++ from_chars function for float and double types
 URL: https://github.com/fastfloat/fast_float
 License: Apache-2.0 or Boost or MIT
